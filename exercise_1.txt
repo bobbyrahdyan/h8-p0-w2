@@ -1,0 +1,53 @@
+Pseudocode
+
+Bobby Rahdyan A. Notokoesoemo
+
+1. Newton Second Law
+
+write ('masukkan m dengan nilai 600 kg'); read (massaBenda) // dengan satuan massa
+write ('masukkan a dengan nilai 2 m/s2'); read (percepatanBenda) // dengan satuan m/s2
+luas = massaBenda * percepatanBenda
+
+print 'luas' // hasil nya akan 1200 Newton
+
+-------------------------------------------------------------------------------------------
+
+2. Tahun Kabisat
+
+write ('masukkan tahun'); read(tahun)
+
+if (tahun modulo 4 == 0 && tahun modulo 100 != 0)
+	print 'ini adalah tahun kabisat'
+
+else if (tahun modulo 4 == 0 && tahun modulo 100 == 0  && tahun modulo 400 == 0)
+	print 'ini adalah tahun kabisat'
+
+else 
+	print 'bukan tahun kabisat'
+
+-----------------------------------------------------------------------------------------------
+
+3. Laundry Day
+
+write ('masukkan baju dengan nilai 1'); read (baju)
+
+while (baju <= 20 ) 
+	do baju tambah 1
+
+if (baju == 20)
+ 	do 'nyalakan mesin cuci'
+
+
+------------------------------------------------------------------------------------------
+
+4. Periksa Kuku
+
+write ('siswa dengan nilai 1'); read (siswa)
+
+while (siswa <= 40)
+if (siswa == 'kukunya panjang')
+	do 'menghukum siswa'
+else 
+	do 'memuji siswa'
+
+siswa++ == 40
