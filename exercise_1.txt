@@ -2,52 +2,50 @@ Pseudocode
 
 Bobby Rahdyan A. Notokoesoemo
 
-1. Newton Second Law
+READ 'car mass' WITH value 600kg
+READ 'car acceleration' WITH value 2 m/s2
 
-write ('masukkan m dengan nilai 600 kg'); read (massaBenda) // dengan satuan massa
-write ('masukkan a dengan nilai 2 m/s2'); read (percepatanBenda) // dengan satuan m/s2
-luas = massaBenda * percepatanBenda
-
-print 'luas' // hasil nya akan 1200 Newton
+DISPLAY 'resultant force' by CALCULATE 'car mass' MULTIPLY by 'car acceleration'
+PRINT 'newton'
 
 -------------------------------------------------------------------------------------------
 
 2. Tahun Kabisat
 
-write ('masukkan tahun'); read(tahun)
+READ value 'year' anything
 
-if (tahun modulo 4 == 0 && tahun modulo 100 != 0)
-	print 'ini adalah tahun kabisat'
-
-else if (tahun modulo 4 == 0 && tahun modulo 100 == 0  && tahun modulo 400 == 0)
-	print 'ini adalah tahun kabisat'
-
-else 
-	print 'bukan tahun kabisat'
+IF value 'year' DIVISION by 4 EQUAL zero END value 'year' DIVISION by 100 EQUAL zero THEN
+  DISPLAY 'this is leap year'
+ELSE not EQUAL 'leap year'
+ENDIF
+IF value 'year' DIVISION by 4, DIVISION by 100 AND DIVISION by 400 EQUAL zero THEN 
+  DISPLAY 'this is leap year'
+ELSE not EQUAL 'leap year'
+ENDIF    
 
 -----------------------------------------------------------------------------------------------
 
 3. Laundry Day
 
-write ('masukkan baju dengan nilai 1'); read (baju)
+READ 'foxie clothes' WITH value 20
 
-while (baju <= 20 ) 
-	do baju tambah 1
-
-if (baju == 20)
- 	do 'nyalakan mesin cuci'
+WHILE 'Foxie clothes' > zero AND LESS THEN twenty
+DISPLAY 'the rest of clothes', THEN 'the rest of clothes' DECREMENT by one
+ENDWHILE
+IF 'foxie clothes' EQUAL zero, DO turn on washing machine
+ENDIF
 
 
 ------------------------------------------------------------------------------------------
 
 4. Periksa Kuku
 
-write ('siswa dengan nilai 1'); read (siswa)
+READ value 'student' WITH value 40
 
-while (siswa <= 40)
-if (siswa == 'kukunya panjang')
-	do 'menghukum siswa'
-else 
-	do 'memuji siswa'
-
-siswa++ == 40
+WHILE 'student' > 0, THEN check IF 'student have long nails', TRUE or FALSE
+IF 'student have long nails' is TRUE, THEN DISPLAY 'student' who are being punished
+ELSE 'student do not have long nails' is FALSE, THEN DISPLAY 'student' who are praised
+DECREMENT value 'student' by one person
+ENDWHILE
+IF value 'student' EQUAL zero, DO complete the nails examination
+ENDIF
